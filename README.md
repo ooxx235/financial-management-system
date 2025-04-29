@@ -6,7 +6,6 @@
 int main() {
     FinanceManager manager;
 
-    // 顯示選單
     int choice;
     do {
         std::cout << "\n===== Personal Finance Management =====\n";
