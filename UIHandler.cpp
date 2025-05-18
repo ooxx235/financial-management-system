@@ -31,10 +31,10 @@ void UIHandler::run() {
 
 void UIHandler::displayMenu() const {
     std::cout << "\n===== Personal Finance Management =====\n";
-    std::cout << "Add Transaction\n Enter 1";
-    std::cout << "View Transactions\n Enter 2";
-    std::cout << "Generate Report\n Enter 3";
-    std::cout << "Exit\n Enter 4";
+    std::cout << " Enter 1:Add Transaction\n ";
+    std::cout << "Enter 2:View Transactions\n ";
+    std::cout << "Enter 3:Generate Report\n ";
+    std::cout << "Enter 4:Exit\n ";
 }
 
 void UIHandler::addTransaction() {
