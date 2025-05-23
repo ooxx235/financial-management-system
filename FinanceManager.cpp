@@ -160,7 +160,7 @@ void FinanceManager::generateReport() const {
 
     cout << "Total Expense: " << totalExpense << endl;
 
-    cout << "Net Savings: " << (totalIncome - totalExpense) << endl;
+    cout << "Savings: " << (totalIncome - totalExpense) << endl;
 
 }
 
